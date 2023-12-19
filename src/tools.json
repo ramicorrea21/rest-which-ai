@@ -1,0 +1,317 @@
+[
+    {
+      "name": "SpaCy",
+      "creator": "Matt Honnibal",
+      "category": "Natural Language Processing (NLP)",
+      "description": "SpaCy is an open-source library for advanced natural language processing in Python. It is designed specifically for production use and is known for its speed and efficiency.",
+      "website": "https://spacy.io/"
+    },
+    {
+      "name": "NLTK",
+      "creator": "Steven Bird, Edward Loper",
+      "category": "Natural Language Processing (NLP)",
+      "description": "NLTK, or the Natural Language Toolkit, is a powerful Python library for working with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources, such as WordNet.",
+      "website": "https://www.nltk.org/"
+    },
+    {
+      "name": "GPT",
+      "creator": "OpenAI",
+      "category": "Natural Language Processing (NLP)",
+      "description": "GPT (Generative Pre-trained Transformer) is a family of language models developed by OpenAI. It uses deep learning to produce human-like text and has been widely used for various natural language processing tasks.",
+      "website": "https://www.openai.com/"
+    },
+    {
+      "name": "TensorFlow",
+      "creator": "Google Brain Team",
+      "category": "Machine Learning Frameworks",
+      "description": "TensorFlow is an open-source machine learning framework developed by the Google Brain team. It provides a comprehensive set of tools and community resources for building and deploying machine learning models.",
+      "website": "https://www.tensorflow.org/"
+    },
+    {
+      "name": "PyTorch",
+      "creator": "Facebook AI Research (FAIR)",
+      "category": "Machine Learning Frameworks",
+      "description": "PyTorch is an open-source machine learning library developed by Facebook AI Research (FAIR). It is known for its dynamic computational graph, making it flexible and easy to work with.",
+      "website": "https://pytorch.org/"
+    },
+    {
+      "name": "Scikit-learn",
+      "creator": "David Cournapeau",
+      "category": "Machine Learning Frameworks",
+      "description": "Scikit-learn is a simple and efficient tool for data analysis and machine learning in Python. It features various algorithms and tools for tasks such as classification, regression, clustering, and dimensionality reduction.",
+      "website": "https://scikit-learn.org/"
+    },
+    {
+      "name": "OpenCV",
+      "creator": "OpenCV Development Team",
+      "category": "Computer Vision",
+      "description": "OpenCV (Open Source Computer Vision Library) is an open-source computer vision and machine learning software library. It contains over 2500 optimized algorithms for real-time computer vision.",
+      "website": "https://opencv.org/"
+    },
+    {
+      "name": "TensorFlow Object Detection API",
+      "creator": "Google Research Brain Team",
+      "category": "Computer Vision",
+      "description": "TensorFlow Object Detection API is an open-source framework built on top of TensorFlow that makes it easy to construct, train, and deploy object detection models.",
+      "website": "https://github.com/tensorflow/models/tree/master/research/object_detection"
+    },
+    {
+      "name": "YOLO (You Only Look Once)",
+      "creator": "Joseph Redmon, Santosh Divvala, Ross Girshick, Ali Farhadi",
+      "category": "Computer Vision",
+      "description": "YOLO (You Only Look Once) is a real-time object detection system that can detect multiple objects in an image with a single forward pass of the neural network.",
+      "website": "https://pjreddie.com/darknet/yolo/"
+    },
+    {
+      "name": "Google Speech-to-Text",
+      "creator": "Google",
+      "category": "Speech Recognition",
+      "description": "Google Speech-to-Text is an API that converts audio into text. It is designed to recognize over 120 languages and variants with support for various audio formats.",
+      "website": "https://cloud.google.com/speech-to-text"
+    },
+    {
+      "name": "IBM Watson Speech to Text",
+      "creator": "IBM",
+      "category": "Speech Recognition",
+      "description": "IBM Watson Speech to Text is a cloud-based service that converts spoken words into written text. It is trained on a variety of languages and can be used in various applications.",
+      "website": "https://www.ibm.com/cloud/watson-speech-to-text"
+    },
+    {
+      "name": "Microsoft Azure Speech",
+      "creator": "Microsoft",
+      "category": "Speech Recognition",
+      "description": "Microsoft Azure Speech is a cloud-based service that provides speech-to-text and text-to-speech capabilities. It is part of the Azure Cognitive Services suite.",
+      "website": "https://azure.microsoft.com/en-us/services/cognitive-services/speech/"
+    },
+    {
+      "name": "OpenAI Gym",
+      "creator": "OpenAI",
+      "category": "Reinforcement Learning",
+      "description": "OpenAI Gym is an open-source toolkit for developing and comparing reinforcement learning algorithms. It provides a wide variety of environments for testing and developing AI agents.",
+      "website": "https://gym.openai.com/"
+    },
+    {
+      "name": "Stable Baselines",
+      "creator": "OpenAI",
+      "category": "Reinforcement Learning",
+      "description": "Stable Baselines is a set of high-quality implementations of reinforcement learning algorithms in Python. It is built on top of OpenAI Gym and provides a stable set of algorithms for researchers and practitioners.",
+      "website": "https://github.com/DLR-RM/stable-baselines3"
+    },
+    {
+      "name": "Ray RLlib",
+      "creator": "Anyscale",
+      "category": "Reinforcement Learning",
+      "description": "Ray RLlib is an open-source library for reinforcement learning that offers both high-level and low-level APIs. It is part of the Ray Project, designed for scalable and distributed computing.",
+      "website": "https://docs.ray.io/en/latest/rllib.html"
+    },
+    {
+        "name": "IBM SPSS",
+        "creator": "IBM",
+        "category": "Predictive Analytics",
+        "description": "IBM SPSS (Statistical Package for the Social Sciences) is a software suite used for statistical analysis. It provides tools for data analysis, data mining, and predictive analytics.",
+        "website": "https://www.ibm.com/analytics/spss-statistics-software"
+      },
+      {
+        "name": "RapidMiner",
+        "creator": "RapidMiner, Inc.",
+        "category": "Predictive Analytics",
+        "description": "RapidMiner is an open-source data science platform that provides an integrated environment for data preparation, machine learning, deep learning, text mining, and predictive analytics.",
+        "website": "https://rapidminer.com/"
+      },
+      {
+        "name": "Orange",
+        "creator": "University of Ljubljana",
+        "category": "Predictive Analytics",
+        "description": "Orange is an open-source data visualization and analysis tool for novice and expert users. It includes a variety of machine learning algorithms and data visualization components.",
+        "website": "https://orange.biolab.si/"
+      },
+      {
+        "name": "Pandas",
+        "creator": "Wes McKinney",
+        "category": "Data Processing and Analysis",
+        "description": "Pandas is an open-source data analysis and manipulation library for Python. It provides data structures for efficiently storing and manipulating large datasets.",
+        "website": "https://pandas.pydata.org/"
+      },
+      {
+        "name": "Apache Spark",
+        "creator": "Apache Software Foundation",
+        "category": "Data Processing and Analysis",
+        "description": "Apache Spark is an open-source distributed computing system that provides a fast and general-purpose cluster-computing framework for big data processing and analytics.",
+        "website": "https://spark.apache.org/"
+      },
+      {
+        "name": "Dask",
+        "creator": "Dask Development Team",
+        "category": "Data Processing and Analysis",
+        "description": "Dask is an open-source library for parallel computing in Python. It enables users to harness the full power of their CPU and memory resources while working with large datasets.",
+        "website": "https://dask.org/"
+      },
+        {
+          "name": "ROS (Robot Operating System)",
+          "creator": "Open Robotics",
+          "category": "Robotics",
+          "description": "ROS (Robot Operating System) is a flexible framework for writing robot software. It provides services, libraries, and tools to help software developers create robot applications.",
+          "website": "https://www.ros.org/"
+        },
+        {
+          "name": "Microsoft Robotics Developer Studio",
+          "creator": "Microsoft",
+          "category": "Robotics",
+          "description": "Microsoft Robotics Developer Studio is a Windows-based environment for academic, hobbyist, and commercial developers to create robotics applications across a variety of hardware.",
+          "website": "https://www.microsoft.com/en-us/research/project/robotics-developer-studio/"
+        },
+        {
+          "name": "PyRobot",
+          "creator": "Facebook AI Research (FAIR)",
+          "category": "Robotics",
+          "description": "PyRobot is an open-source Python library developed by Facebook AI Research (FAIR) for research in robotics. It provides a high-level interface for robotic manipulation tasks.",
+          "website": "https://pyrobot.org/"
+        },
+        {
+          "name": "IBM Cognos",
+          "creator": "IBM",
+          "category": "Decision Support Systems",
+          "description": "IBM Cognos is a business intelligence and performance management software suite. It allows users to create interactive reports, dashboards, and analyses to support decision-making processes.",
+          "website": "https://www.ibm.com/analytics/cognos-analytics"
+        },
+        {
+          "name": "Tableau",
+          "creator": "Tableau Software",
+          "category": "Decision Support Systems",
+          "description": "Tableau is a powerful data visualization and business intelligence tool. It helps users see and understand their data by transforming raw data into an understandable format.",
+          "website": "https://www.tableau.com/"
+        },
+        {
+          "name": "Microsoft Power BI",
+          "creator": "Microsoft",
+          "category": "Decision Support Systems",
+          "description": "Microsoft Power BI is a business analytics tool that provides interactive visualizations and business intelligence capabilities with an interface simple enough for end users to create their own reports and dashboards.",
+          "website": "https://powerbi.microsoft.com/"
+        },
+        {
+          "name": "Apollo (Baidu)",
+          "creator": "Baidu",
+          "category": "Autonomous Vehicles",
+          "description": "Apollo is an open-source platform for building autonomous vehicles. It provides a comprehensive, flexible, and reliable solution for autonomous driving.",
+          "website": "http://apollo.auto/"
+        },
+        {
+          "name": "Waymo",
+          "creator": "Waymo LLC",
+          "category": "Autonomous Vehicles",
+          "description": "Waymo is a self-driving technology company with a mission to make it safe and easy for people and things to move around. It is a subsidiary of Alphabet Inc.",
+          "website": "https://www.waymo.com/"
+        },
+        {
+          "name": "Tesla Autopilot",
+          "creator": "Tesla, Inc.",
+          "category": "Autonomous Vehicles",
+          "description": "Tesla Autopilot is an advanced driver-assistance system that offers features like lane centering, adaptive cruise control, and automated lane changes. It is designed to assist the driver and enhance vehicle safety.",
+          "website": "https://www.tesla.com/autopilot"
+        },
+        {
+          "name": "Amazon Alexa",
+          "creator": "Amazon",
+          "category": "Virtual Assistants",
+          "description": "Amazon Alexa is a virtual assistant developed by Amazon. It can perform various tasks based on voice commands, including playing music, answering questions, and controlling smart home devices.",
+          "website": "https://developer.amazon.com/en-US/alexa"
+        },
+        {
+          "name": "Google Assistant",
+          "creator": "Google",
+          "category": "Virtual Assistants",
+          "description": "Google Assistant is a virtual assistant powered by artificial intelligence. It is available on mobile and smart home devices, allowing users to interact with their devices using voice commands.",
+          "website": "https://assistant.google.com/"
+        },
+        {
+          "name": "Apple Siri",
+          "creator": "Apple Inc.",
+          "category": "Virtual Assistants",
+          "description": "Siri is a virtual assistant developed by Apple for its iOS, iPadOS, watchOS, and macOS operating systems. It uses voice recognition and natural language processing to interpret and respond to user commands.",
+          "website": "https://www.apple.com/siri/"
+        },
+        {
+          "name": "StyleGAN (Generative Adversarial Network)",
+          "creator": "NVIDIA",
+          "category": "Generative Models",
+          "description": "StyleGAN (Generative Adversarial Network) is a machine learning model developed by NVIDIA for generating high-quality synthetic images. It has been widely used in creative applications and art projects.",
+          "website": "https://www.nvidia.com/en-gb/research/ai-playground/"
+        },
+        {
+          "name": "VQ-VAE-2 (Vector Quantized Variational Autoencoder)",
+          "creator": "DeepMind",
+          "category": "Generative Models",
+          "description": "VQ-VAE-2 is a generative model developed by DeepMind. It is a type of variational autoencoder that uses vector quantization to improve the quality of generated images and achieve better compression.",
+          "website": "https://deepmind.com/"
+        },
+        {
+          "name": "BERT (Bidirectional Encoder Representations from Transformers)",
+          "creator": "Google",
+          "category": "Generative Models",
+          "description": "BERT (Bidirectional Encoder Representations from Transformers) is a natural language processing pre-trained model developed by Google. It has been widely used for tasks such as question answering and text classification.",
+          "website": "https://ai.googleblog.com/2018/11/open-sourcing-bert-state-of-art-pre.html"
+        },
+        {
+          "name": "IBM Watson Health",
+          "creator": "IBM",
+          "category": "Healthcare AI",
+          "description": "IBM Watson Health is an AI-powered platform that leverages advanced data analytics and cognitive computing to help healthcare professionals make more informed decisions. It is used for tasks such as drug discovery and patient care.",
+          "website": "https://www.ibm.com/watson-health"
+        },
+        {
+          "name": "Tempus",
+          "creator": "Tempus Labs",
+          "category": "Healthcare AI",
+          "description": "Tempus is a technology company focused on using data and AI to improve cancer care. It provides tools for physicians to analyze clinical and molecular data to personalize treatment plans.",
+          "website": "https://www.tempus.com/"
+        },
+        {
+          "name": "PathAI",
+          "creator": "PathAI",
+          "category": "Healthcare AI",
+          "description": "PathAI is an AI-powered platform for pathology that assists pathologists in diagnosing diseases more accurately. It uses machine learning to analyze pathology images and provide insights.",
+          "website": "https://www.pathai.com/"
+        },
+        {
+          "name": "Darktrace",
+          "creator": "Darktrace",
+          "category": "Cybersecurity",
+          "description": "Darktrace is an AI-powered cybersecurity platform that uses machine learning and AI algorithms to detect and respond to cyber threats in real time. It is designed to protect organizations from advanced cyber attacks.",
+          "website": "https://www.darktrace.com/"
+        },
+        {
+          "name": "Cylance",
+          "creator": "Cylance Inc.",
+          "category": "Cybersecurity",
+          "description": "Cylance is an AI-driven endpoint security solution that uses machine learning to prevent and respond to cybersecurity threats. It focuses on proactive threat prevention rather than traditional reactive approaches.",
+          "website": "https://www.blackberry.com/us/en/cylance"
+        },
+        {
+          "name": "Symantec AI",
+          "creator": "Symantec Corporation",
+          "category": "Cybersecurity",
+          "description": "Symantec AI is an AI-powered cybersecurity solution that provides advanced threat protection across endpoints, networks, and cloud environments. It leverages machine learning to analyze and respond to evolving threats.",
+          "website": "https://www.symantec.com/"
+        },
+        {
+          "name": "Labelbox",
+          "creator": "Labelbox",
+          "category": "Human-AI Collaboration",
+          "description": "Labelbox is a data labeling platform that combines human labeling and machine learning to annotate and manage training data for AI models. It facilitates collaboration between humans and AI systems in the data annotation process.",
+          "website": "https://labelbox.com/"
+        },
+        {
+          "name": "Supervisely",
+          "creator": "Supervisely Inc.",
+          "category": "Human-AI Collaboration",
+          "description": "Supervisely is an AI-powered platform for computer vision and machine learning. It provides tools for data annotation, model training, and collaboration to streamline the development of AI applications.",
+          "website": "https://supervisely.com/"
+        },
+        {
+          "name": "Snorkel",
+          "creator": "Snorkel AI",
+          "category": "Human-AI Collaboration",
+          "description": "Snorkel is an open-source framework for building machine learning models with weak supervision. It allows users to label training data programmatically and collaboratively, combining human and machine labeling.",
+          "website": "https://www.snorkel.org/"
+        }
+      ]

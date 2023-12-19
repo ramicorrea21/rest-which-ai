@@ -17,3 +17,21 @@ class User(db.Model):
             "email": self.email,
             # do not serialize the password, its a security breach
         }
+
+class Tool(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(250), nullable=False, unique=True)
+    description = db.Column(db.Text, nullable=False, unique=True)
+    creator = db.Column(db.String(250), nullable=False, unique=False)
+    category = db.Column(db.String(250), nullable=False, unique=False)
+    website = db.Column(db.Text, nullable=False, unique=False)
+
+    def serialize(self):
+        return{
+            "id": self.id,
+            "name": self.name,
+            "description": self.description,
+            "creator": self.creator,
+            "category": self.category,
+            "website": self.website
+        }

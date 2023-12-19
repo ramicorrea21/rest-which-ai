@@ -8,7 +8,9 @@ from flask_swagger import swagger
 from flask_cors import CORS
 from utils import APIException, generate_sitemap
 from admin import setup_admin
-from models import db, User
+from models import db, User, Tool
+import os
+import json
 #from models import Person
 
 app = Flask(__name__)
@@ -36,14 +38,52 @@ def handle_invalid_usage(error):
 def sitemap():
     return generate_sitemap(app)
 
-@app.route('/user', methods=['GET'])
-def handle_hello():
+tool_path = os.path.join(os.path.dirname(__file__), "tools.json")
 
-    response_body = {
-        "msg": "Hello, this is your GET /user response "
-    }
+#populate tools
+@app.route("/populate", methods=["GET"])
+def personal_population():
+    with open(tool_path, "r") as file:
+        data = json.load(file)
+        file.close
 
-    return jsonify(response_body), 200
+        for tool in data:
+            tool = Tool(
+                name=tool["name"],
+                category=tool["category"],
+                creator=tool["creator"],
+                website=tool["website"],
+                description=tool["description"],
+            )
+            db.session.add(tool)
+            try:
+                db.session.commit()
+            except Exception as error:
+                print("error:", error.args)
+                return jsonify("rodo fallo"), 500
+        
+    return jsonify("todo funciono"), 201
+        
+#get all tools
+@app.route('/tools', methods=['GET'])
+def get_tools():
+    tools = Tool.query.all()
+    return jsonify(list(map(lambda tool : tool.serialize(), tools))), 200
+
+#get tool by id
+@app.route('/tools/<int:id>', methods=['GET'])
+def get_tool(id):
+    tool = Tool.query.filter_by(id=id).one_or_none()
+    if tool:
+        return jsonify(tool.serialize()), 200
+    else: 
+        return jsonify({"error":"no tool found"}), 400
+
+#post tool
+    
+#edit tool
+#delete tool
+
 
 # this only runs if `$ python src/app.py` is executed
 if __name__ == '__main__':
