@@ -80,8 +80,55 @@ def get_tool(id):
         return jsonify({"error":"no tool found"}), 400
 
 #post tool
+@app.route('/addtool', methods=['POST'])
+def addtool():
+    body = request.json
+    name = body.get("name")
+    creator = body.get("creator")
+    description = body.get("description")
+    website = body.get("website")
+    category = body.get("category")
+
+    if name is None or creator is None or description is None or website is None or category is None:
+        return jsonify({"error":"bad request"}), 400
     
+    tool = Tool(name=name, creator=creator, description=description, website=website, category=category)
+    db.session.add(tool)
+
+    try:
+        db.session.commit()
+        return jsonify({"message":"tool added"}), 201
+    except Exception as error:
+        db.session.rollback()
+        return jsonify({"error":f"{error}"})
+
 #edit tool
+@app.route('/edit_tool/<int:id>', methods=['PUT'])
+def edittool(id):
+    body = request.json
+    name = body.get("name")
+    creator = body.get("creator")
+    description = body.get("description")
+    website = body.get("website")
+    category = body.get("category")
+    tool = Tool.query.filter_by(id=id).one_or_none()
+
+    if name is None or creator is None or description is None or website is None or category is None:
+        return jsonify({"error":"bad request"}), 400
+    
+    tool.name = name
+    tool.creator = creator
+    tool.description = description
+    tool.website = website
+    tool.category = category
+
+    try:
+        db.session.commit()
+        return jsonify({"messaage":"tool edited"})
+    except Exception as error:
+        db.session.rollback()
+        return jsonify({"error":f"{error}"})
+
 #delete tool
 
 
