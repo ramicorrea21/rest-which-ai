@@ -20,8 +20,8 @@ class User(db.Model):
 
 class Tool(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    name = db.Column(db.String(250), nullable=False, unique=True)
-    description = db.Column(db.Text, nullable=False, unique=True)
+    name = db.Column(db.String(250), nullable=False, unique=False)
+    description = db.Column(db.Text, nullable=False, unique=False)
     creator = db.Column(db.String(250), nullable=False, unique=False)
     category = db.Column(db.String(250), nullable=False, unique=False)
     website = db.Column(db.Text, nullable=False, unique=False)
